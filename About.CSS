@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.banner{
+    width: 100%;
+    height: 115vh;
+    background-image: linear-
+    gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(tb11.jpg);
+    background-size: cover;
+    background-position: center;
+}       
+.header{
+    position: absolute;
+    top: 40px; left: 0; right: 0;
+    background: #eebbbb;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    height: 116px;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8%;
+}
+.Logo{
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #c8f7db;    
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+/* body 1 */
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 20px;
+}
+/* body 2 */
+.row{
+    display: flex;
+}
+.colom{
+    flex: 50%;
+    padding: 10px;
+    height: 400px;
+}
+.foto{
+    margin-top: 0;
+    margin-left: 125px;
+}
+.moto{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.moto h2{
+    font-size: 6vh;
+}
+.moto p{
+    font-size: 3vh;
+}
+/* body 3 */
+.Persuasi{
+    width: 100%;
+    height: 50%;
+}
+.Persuasi p{
+    text-align: center;
+    height: 25%;
+    font-size: 4vh;
+    padding-top: 100px;
+    color: #ffffff;
+}
+/* Footer */
+footer{
+    color: #ffffff;
+    background-color: #eebbbb;
+    padding: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.footer{
+    color: #ffffff;
+    background-color: #eebbbb;
+    padding: 30px;
+    text-align: center;
+}
+footer h3{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
